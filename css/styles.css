@@ -17,10 +17,20 @@ body{
 	font-size: 15px;
 }
 
-div{
+.quotes {
+	color: white;
+	display: flex;
+}
+
+div > div{
 	margin-left: 50px;
 	margin-top: 50px;
 	border-left: 20px;
 	padding: 50px;
 	width: 300px;
+	height: 300px;
+}
+
+.active{
+	background: pink;
 }
